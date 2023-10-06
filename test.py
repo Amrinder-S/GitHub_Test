@@ -1,7 +1,7 @@
 import csv
 import json
 from datetime import datetime
-
+import os
 # Function to load existing JSON data from the file
 def load_json_data(filename):
     try:
@@ -29,7 +29,7 @@ def save_json_data(filename, data):
 def is_birthday(birthdate):
     today = datetime.now().date()
     formatted_date = today.strftime("%d-%m")
-    print(f"today: {formatted_date} | date: {birthdate[:-5]}")
+    #print(f"today: {formatted_date} | date: {birthdate[:-5]}")
     return formatted_date == birthdate[:-5]
 
 
@@ -52,6 +52,7 @@ def main():
                 add_entry(data, name, crn, gender)
 
     save_json_data(filename, data)
-
+    os.system("git add *")
+    os.system("git commit -m 'birthday-update'")
 if __name__ == "__main__":
     main()
