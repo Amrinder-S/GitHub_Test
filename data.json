@@ -1,17 +1,27 @@
 [
     {
-        "name": "Amrinder",
-        "CRN": "123123",
+        "name": "Emily Johnson",
+        "CRN": "987654",
+        "gender": "f"
+    },
+    {
+        "name": "Olivia Martinez",
+        "CRN": "777888",
+        "gender": "f"
+    },
+    {
+        "name": "Henry Hall",
+        "CRN": "123789",
         "gender": "m"
     },
     {
-        "name": "amr",
-        "CRN": "12312",
-        "gender": "m"
+        "name": "Harper Moore",
+        "CRN": "555111",
+        "gender": "f"
     },
     {
-        "name": "amr",
-        "CRN": "2131",
-        "gender": "m"
+        "name": "Avery Martin",
+        "CRN": "333111",
+        "gender": "f"
     }
 ]
