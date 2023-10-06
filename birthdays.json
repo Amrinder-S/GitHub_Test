@@ -1,0 +1,22 @@
+[
+    {
+        "name": "John Doe",
+        "CRN": "123546",
+        "gender": "m"
+    },
+    {
+        "name": "Joana Doe",
+        "CRN": "654321",
+        "gender": "f"
+    },
+    {
+        "name": "Alex Smith",
+        "CRN": "789012",
+        "gender": "m"
+    },
+    {
+        "name": "Emily Johnson",
+        "CRN": "987654",
+        "gender": "f"
+    }
+]
