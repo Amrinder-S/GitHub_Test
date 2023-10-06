@@ -1,0 +1,11 @@
+[
+  {
+    "name": "John Doe",
+    "birthdate": "2000-10-06"
+  },
+  {
+    "name": "Jane Smith",
+    "birthdate": "1995-09-15"
+  },
+  // Add more entries as needed
+]
